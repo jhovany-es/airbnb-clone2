@@ -3,26 +3,26 @@ import style from "../style/location.module.css";
 
 export default function Location() {
   const [data, setData] = useState([
-    { image: "lahore.webp", title: "Lahore", description: "5.5 hour drive" },
-    { image: "muree.webp", title: "Muree", description: "2.5 hour drive" },
+    { image: "./airbnb-clone2/lahore.webp", title: "Lahore", description: "5.5 hour drive" },
+    { image: "./airbnb-clone2/muree.webp", title: "Muree", description: "2.5 hour drive" },
     {
-      image: "rawalpindi.webp",
-      title: "Rawalpindi Cantt",
+      image: "./airbnb-clone2/rawalpindi.webp",
+      title: "./airbnb-clone2/Rawalpindi Cantt",
       description: "2 hour drive",
     },
-    { image: "nathia.jpg", title: "Nathia Gali", description: "3 hour drive" },
-    { image: "multan.webp", title: "Multan", description: "7.5 hour drive" },
+    { image: "./airbnb-clone2/nathia.jpg", title: "Nathia Gali", description: "3 hour drive" },
+    { image: "./airbnb-clone2/multan.webp", title: "Multan", description: "7.5 hour drive" },
     {
-      image: "peshawar.webp",
+      image: "./airbnb-clone2/peshawar.webp",
       title: "Peshawar",
       description: "1.5 hour drive",
     },
     {
-      image: "faisalabad.webp",
+      image: "./airbnb-clone2/faisalabad.webp",
       title: "Faisalabad",
       description: "5 hour drive",
     },
-    { image: "bhurban.webp", title: "Bhurban", description: "3 hour drive" },
+    { image: "./airbnb-clone2/bhurban.webp", title: "Bhurban", description: "3 hour drive" },
   ]);
   return (
     <div className={style.Location}>
